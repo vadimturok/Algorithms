@@ -1,26 +1,27 @@
-export const graph = {}
-graph.dovhe = ['kushnitsa', 'priborzhavske', 'polyana']
-graph.kushnitsa = ['svalyava', 'dovhe']
-graph.priborzhavske = ['dovhe', 'irshava', 'bilky']
-graph.polyana = ['iza', 'dovhe']
-graph.svalyava = ['kushnitsa', 'mukachevo']
-graph.mukachevo = ['svalyava', 'chop', 'uzhgorod', 'zarichya', 'zaluzhya', 'berehove']
-graph.zaluzhya = ['mukachevo', 'zarichya', 'zavydovo']
-graph.zavydovo = ['zaluzhya', 'irshava']
-graph.uzhgorod = ['mukachevo', 'chop']
-graph.zarichya = ['mukachevo', 'irshava', 'berehove', 'shyroke', 'olhivka']
-graph.olhivka = ['zarichya', 'rakovets']
-graph.rakovets = ['olhivka', 'bilky']
-graph.irshava = ['zarichya', 'osiy', 'priborzhavske', 'zavydovo']
-graph.osiy = ['irshava', 'bilky']
-graph.bilky = ['priborzhavske', 'osiy', 'rakovets']
-graph.chop = ['mukachevo', 'uzhgorod', 'berehove']
-graph.berehove = ['chop', 'zarichya', 'vylok', 'mukachevo']
-graph.vylok = ['berehove', 'vynohradovo']
-graph.vynohradovo = ['vylok', 'khust']
-graph.khust = ['vynohradovo', 'shyroke', 'iza']
-graph.shyroke = ['khust', 'zarichya']
-graph.iza = ['khust', 'polyana']
+export const graph = {
+    dovhe: ['kushnitsa', 'priborzhavske', 'polyana'],
+    kushnitsa : ['svalyava', 'dovhe'],
+    priborzhavske : ['dovhe', 'irshava', 'bilky'],
+    polyana : ['iza', 'dovhe'],
+    svalyava : ['kushnitsa', 'mukachevo'],
+    mukachevo : ['svalyava', 'chop', 'uzhgorod', 'zarichya', 'zaluzhya', 'berehove'],
+    zaluzhya : ['mukachevo', 'zarichya', 'zavydovo'],
+    zavydovo : ['zaluzhya', 'irshava'],
+    uzhgorod : ['mukachevo', 'chop'],
+    zarichya : ['mukachevo', 'irshava', 'berehove', 'shyroke', 'olhivka'],
+    olhivka : ['zarichya', 'rakovets'],
+    rakovets : ['olhivka', 'bilky'],
+    irshava : ['zarichya', 'osiy', 'priborzhavske', 'zavydovo'],
+    osiy : ['irshava', 'bilky'],
+    bilky : ['priborzhavske', 'osiy', 'rakovets'],
+    chop : ['mukachevo', 'uzhgorod', 'berehove'],
+    berehove : ['chop', 'zarichya', 'vylok', 'mukachevo'],
+    vylok : ['berehove', 'vynohradovo'],
+    vynohradovo : ['vylok', 'khust'],
+    khust : ['vynohradovo', 'shyroke', 'iza'],
+    shyroke : ['khust', 'zarichya'],
+    iza : ['khust', 'polyana']
+}
 
 
 export let graph2 = {
