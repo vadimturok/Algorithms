@@ -23,7 +23,6 @@ export const graph = {
     iza : ['khust', 'polyana']
 }
 
-
 export let graph2 = {
     dovhe: { kushnitsa: 10, priborzhavske: 4},
     kushnitsa: { dovhe: 10, svalyava: 25},
@@ -47,7 +46,7 @@ export let graph2 = {
     shyroke: {khust: 15, zarichya: 14},
     iza: {khust: 6, polyana: 16},
     polyana: {iza: 16, dovhe: 6}
-};
+}
 
 export let graph3 = {
     dovhe: { kushnitsa: 3, priborzhavske: 3, polyana: 2},
@@ -72,7 +71,7 @@ export let graph3 = {
     shyroke: {khust: 2, zarichya: 1},
     iza: {khust: 3, polyana: 2},
     polyana: {iza: 2, dovhe: 2}
-};
+}
 
 export const city = [
     {name: 'Dovhe', coordinats: 23.277, population: 6790},
