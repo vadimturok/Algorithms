@@ -8,5 +8,6 @@ export const insertionSort = (array, type) => {
         }
         array[j] = current
     }
-    return array
+    for(let i of array)
+        type === 1 ? console.log(i.name) : console.log(i.name, ' -- ', i.population)
 }
