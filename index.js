@@ -1,12 +1,8 @@
 import {dfs1} from "./tasks/task1.js"
-import {dfs} from "./tasks/task2.js"
+import {dfs, str} from "./tasks/task2.js"
 import {findShortestPath} from "./tasks/task3.js"
 import {insertionSort} from "./tasks/task4.js"
-import {graph} from "./graphs.js"
-import {graph2} from "./graphs.js"
-import {city} from "./graphs.js"
-import {graph3} from "./graphs.js"
-import {str} from "./tasks/task2.js"
+import {graph, graph2, graph3, city} from "./graphs.js"
 
 dfs1(graph, 'uzhgorod', 'dovhe')
 dfs(graph, 'uzhgorod', 'dovhe')
