@@ -23,7 +23,7 @@ export const graph = {
     iza : ['khust', 'polyana']
 }
 
-export let graph2 = {
+export const graph2 = {
     dovhe: { kushnitsa: 10, priborzhavske: 4},
     kushnitsa: { dovhe: 10, svalyava: 25},
     svalyava: { kushnitsa: 25, mukachevo: 30},
@@ -48,7 +48,7 @@ export let graph2 = {
     polyana: {iza: 16, dovhe: 6}
 }
 
-export let graph3 = {
+export const graph3 = {
     dovhe: { kushnitsa: 3, priborzhavske: 3, polyana: 2},
     kushnitsa: { dovhe: 3, svalyava: 1},
     svalyava: { kushnitsa: 1, mukachevo: 2},

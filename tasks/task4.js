@@ -9,5 +9,5 @@ export const insertionSort = (array, type) => {
         array[j] = current
     }
     for(let i of array)
-        type === 1 ? console.log(i.name) : console.log(i.name, ' -- ', i.population)
+        type === 1 ? console.log(i.name, ' -- ', i.coordinats) : console.log(i.name, ' -- ', i.population)
 }

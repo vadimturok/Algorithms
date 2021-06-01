@@ -1,7 +1,7 @@
 const visited = {}
 export let str = ''
 export function dfs(adj, v, t) {
-    str += v; str += ' --> '
+    str += v + ' --> '
     if(v === t) return true
     if(visited[v]) return false
     visited[v] = true
