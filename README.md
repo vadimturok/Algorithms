@@ -1,1 +1,1 @@
-# Find shortest path and sorting algorithms
+# Shortest path and sorting algorithms
